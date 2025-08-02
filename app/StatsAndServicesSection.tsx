@@ -67,10 +67,10 @@ const StatsAndServicesSection = () => (
         </p>
         {/* Duże zdjęcie */}
         <div className="relative rounded-2xl overflow-hidden shadow-md w-full max-w-md aspect-square">
-          <Image
+          <img
             src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=600&q=80"
             alt="Happy patient"
-            fill
+            // fill
             className="object-cover"
           />
         </div>
