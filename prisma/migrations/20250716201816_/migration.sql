@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Patient" ALTER COLUMN "password" DROP NOT NULL,
+ALTER COLUMN "phone" DROP NOT NULL,
+ALTER COLUMN "whatsapp" DROP NOT NULL;
